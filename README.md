@@ -10,7 +10,8 @@
 
 1.) Download [Rclone](https://rclone.org/downloads/)
 
-2.) Setup cloud service (you can open command prompt by typing "cmd" into address bar in file explorer) of your choice using a guide on their site, you only have to give the drive name "satisfactory".
+2.) Setup cloud service of your choice using a guide on their site, you only have to give the drive name "satisfactory".
+- Tip: You can open command prompt in a current folder by typing "cmd" into the address bar in file explorer)
 - Google drive: https://rclone.org/drive/ 
 - I recommend creating a new account just for that.
     
