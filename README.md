@@ -8,7 +8,7 @@
 ## Setup:
 0.) Backup you saves in case something goes wrong
 
-1.) Download rclone
+1.) Download [Rclone](https://rclone.org/downloads/)
 
 2.) Setup cloud service (you can open command prompt by typing "cmd" into address bar in file explorer) of your choice using a guide on their site, you only have to give the drive name "satisfactory".
 - Google drive: https://rclone.org/drive/ 
