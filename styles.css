@@ -1,0 +1,117 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: #2E3440;
+    color: #ECEFF4;
+}
+
+header.nav {
+    background-color: #4C566A;
+    padding: 1.25em;
+    text-align: center;
+}
+
+h1 {
+    color: #D08770;
+}
+
+li {
+    display: inline;
+    
+}
+
+a {
+    color:white;
+}
+a:hover {
+    color: #D08770;
+}
+
+.uvod {
+    background-color: #3B4252;
+    text-align: center;
+    padding: 6.25em 1.25em;
+}
+
+.bubliny {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bublina {
+    background-color: #4C566A;
+    padding-top: 0.75em;
+    padding-right: 1.25em;
+    padding-bottom: 1.5em;
+    padding-left: 1.25em;
+    margin: 1.25em;
+    border-radius: 10px;
+    text-align: center;
+    width: 28%;
+    
+}
+
+h3, h2 {
+    color: #D08770;
+    margin:0.2em;
+}
+
+#logo {
+    width:20%;
+}
+
+#logos {
+    display: flex;
+    justify-content:center;
+    width: 40%;
+}
+footer {
+    text-align: center;
+    color: #4C566A;
+    font-size: small;
+}
+hr {
+    border: 1px solid #3B4252;
+}
+.insth2 {
+    background-color: #3B4252;
+    padding: 1em;
+}
+.instrukce {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.inst {
+    background-color: #4C566A;
+    padding: 0.75em;
+    margin: 1.25em;
+    width: fit-content;
+    
+}
+.inline {display: inline;}
+li.instlist {
+    display: block;
+}
+.right {
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .bubliny{ 
+        display: inline;
+        
+    }
+    .bublina {
+        width:75%;
+        margin: 1.25em auto;
+    }
+    #logos {
+        width: 100%;
+    }
+}
