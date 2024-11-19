@@ -15,6 +15,14 @@ header.nav {
     text-align: center;
 }
 
+.navlist {
+    margin-top: 15px;
+}
+
+.navlist > li {
+    margin: 15px;
+}
+
 h1 {
     color: #D08770;
 }
@@ -96,11 +104,45 @@ hr {
 }
 .inline {display: inline;}
 li.instlist {
-    display: block;
+    display: list-item;
+    margin: 10px 50px;
 }
 .right {
     text-align: left;
 }
+.faq {
+    padding: 0em 2.25em;
+}
+
+.faq-item {
+    background-color: #4C566A;
+    padding: 0.75em;
+    margin: 1.25em 0;
+    border-radius: 5px;
+}
+
+.button {
+    border-radius: 16px;
+    background: #3B4252;
+    box-shadow:  8px 8px 16px #252a34,
+                -8px -8px 16px #515a70;
+    padding: 2px 0px;
+    border-color: #3B4252;
+}
+
+button:hover {
+    border-radius: 16px;
+    background: #3B4252;
+    box-shadow: inset 8px 8px 16px #252a34,
+                inset -8px -8px 16px #515a70;
+}
+
+.button > a {
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: medium;
+}
+
 
 @media only screen and (max-width: 768px) {
     .bubliny{ 
@@ -113,5 +155,8 @@ li.instlist {
     }
     #logos {
         width: 100%;
+    }
+    li {
+        display: flex;
     }
 }
