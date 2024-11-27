@@ -13,6 +13,8 @@ header.nav {
     background-color: #4C566A;
     padding: 1.25em;
     text-align: center;
+    position: sticky;
+    top: 0px;
 }
 
 .navlist {
